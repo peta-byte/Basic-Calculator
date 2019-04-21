@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="Add.js"></script>
+    <script src="Subtract.js"></script>
+    <script src="Multiply.js"></script>
+    <script src="Divide.js"></script>
+  </head>
+
+  <body>
+    <div>
+      <h1>Welcome to Math with JavaScript!</h1>
+      <hr></hr>
+        <div id="fields" class="w3-container w3-row">
+          <div class="w3-container w3-half">
+            
+          <div id="add">
+          <h2 class="w3-xlarge">Addition:</h2>
+          <input type="text" class="w3-animate-input" id="summedUp" placeholder="First Number" />
+          <br>
+          <br>
+          <input type="text" class="w3-animate-input" id="addedNum" placeholder="Second Number" />
+          <br>
+          <br>
+          <button class="w3-button w3-black" onclick="add()">Add</button>
+          </div>
+          <br>
+          
+          <div id="subtract">
+          <h2 class="w3-xlarge">Subtraction:</h2>
+          <input type="text" class="w3-animate-input" id="subtractor" placeholder="First Number" />
+          <br>
+          <br>
+          <input type="text" class="w3-animate-input" id="subtracted" placeholder="Second Number" />
+          <br>
+          <br>
+          <button class="w3-button w3-black" onclick="subtract()">Subtract</button>
+          </div>
+          <br>
+          
+          </div>
+          <div class="w3-container w3-half">
+          <div id="multiple">
+          <h2 class="w3-xlarge">Multiplication:</h2>
+          <input type="text" class="w3-animate-input" id="multiplied" placeholder="First Number" />
+          <br>
+          <br>
+          <input type="text" class="w3-animate-input" id="multiplier" placeholder="Second Number" />
+          <br>
+          <br>
+          <button class="w3-button w3-black" onclick="multiply()">Multiply</button>
+          </div>
+          <br>
+          
+          <div id="divide">
+          <h2 class="w3-xlarge">Division:</h2>
+          <input type="text" class="w3-animate-input" id="dividend" placeholder="First Number" />
+          <br>
+          <br>
+          <input type="text" class="w3-animate-input" id="divisor" placeholder="Second Number" />
+          <br>
+          <br>
+          <button class="w3-button w3-black" onclick="divide()">Divide</button>
+          </div>
+          
+          </div>
+      </div>
+    </div>
+  </body>
+
+</html>
